@@ -1,0 +1,289 @@
+.numberBox {
+    display: inline-block;
+    width: 25px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 5px;
+    background-color: lightgrey;
+}
+
+#board {
+    background-color: lightgray;
+    width: 540px;
+}
+
+.red {
+    background-color: red;
+    
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.white {
+    background-color: white;
+}
+
+.red .lockBox  {
+    background-color: lightcoral;
+}
+
+.red .numberbox {
+    background-color: lightcoral;
+}
+.red .lockBox {
+    background-color: lightcoral;
+}
+
+.yellow .numberbox  {
+    background-color: lightyellow;
+}
+
+.yellow .lockBox  {
+    background-color: lightyellow;
+}
+
+.green .numberbox  {
+    background-color: lightgreen;
+}
+
+.green .lockBox  {
+    background-color: lightgreen;
+}
+
+.blue .numberbox {
+    background-color: lightskyblue;
+}
+
+.blue .lockBox {
+    background-color: lightskyblue;
+}
+
+/* .purple .numberbox  {
+    background-color:  violet;
+}
+
+.purple .lockBox  {
+    background-color: violet;
+}
+
+.orange .numberbox {
+    background-color: DarkGoldenRod
+}
+
+.orange .lockBox {
+    background-color: DarkGoldenRod;
+} */
+
+
+.lockBox {
+    font-size: 1em ;
+    border-radius: 50%;
+    height: 30px;
+    margin: 4px;
+    width: 30px; 
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.lowerPoints {
+    border-top: 1px solid black;
+} 
+
+.colorBox1{
+    position: relative;
+    left: 2px;
+    top: 20px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid black;
+    width: 30px;
+    height: 15px;
+}
+
+.coloredBoxes {
+    display: inline-block;
+    position: relative;
+    left: 45px;
+    height: 35px;
+    width: 25px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+
+} 
+
+.fraction {
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1em;
+} 
+
+.numberkeys {
+    border-bottom: 1px solid black;
+}
+
+.RedX {
+    position: relative;
+    color: red;
+    left: 20px;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.diceX {
+    position: relative;
+    left: 55px;
+}
+
+.diceEqual {
+    position: relative;
+    font-size: 1.5em;
+    left: 10px
+   
+}
+
+.totals {
+    margin-left: -20px;
+    font: 2px;
+}
+
+.topBox {
+    position: absolute;
+    top: 60px;
+    left: 435px;
+    width: 100px;
+    height: 170px;
+    border-radius: 5px;
+    border: 2px solid black;
+
+}
+
+.firstRectangle {
+    display: inline-block;
+    position: relative;
+    left: 420px;
+    bottom: 20px;
+    border-radius: 5px;
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border: 0.1em solid black;
+    margin-left: 2px;
+}
+
+.footer {
+    display: inline-block;
+    background-color: grey;
+    width: 520px;
+    height: 50px;
+    padding-top: 50px;
+    padding-left: 20px;
+} 
+
+.bottomBox {
+    border: 5px solid;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+  }
+  
+.whitebox {
+      border: 1px solid black;
+      padding-left: 60px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      margin-left: 2px;
+      background-color:white;
+      border-radius: 5px;
+    }
+
+.bluebox {
+        border: 2px solid blue;
+        padding-left: 70px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-right: 3px;
+        margin-left: 3px;
+        background-color:lightskyblue;
+        border-radius: 5px;
+      }
+
+ .redbox {
+        border: 2px solid red;
+        padding-left: 60px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 2px;
+        background-color:lightsalmon;
+        border-radius: 5px;
+}
+
+.yellowbox {
+    border: 2px solid yellow;
+    padding-left: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 2px;
+    background-color:lightyellow;
+    border-radius: 5px;
+}
+
+.greenbox {
+    border: 2px solid green;
+    padding-left: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 2px;
+    background-color:lightgreen;
+    border-radius: 5px;
+}
+  
+.finalbox {
+      border: 1px solid black;
+      padding-left: 80px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      margin-right: 3px;
+      margin-left: 3px;
+      background-color:white;
+      border-radius: 5px;
+    }
+
+
+
+
+.row {
+    border-radius: 5px;
+    display: inline-block;
+    margin: 5px;
+}
+
+.triangles {
+    margin-left: -15px;
+}
+
+
+.die {
+    display: inline-block;
+    width: 20px;
+    border: 1px solid black;
+    border-radius: 7px;
+    text-align: center;
+    margin: 4px;
+}
